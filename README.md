@@ -5,6 +5,8 @@ This project analyzes the relationship between socioeconomic and health indicato
 
 The project focuses on the model-building process, including variable selection, diagnostic testing, and comparison between classical linear regression and generalized linear models.
 
+Link to where I found the dataset on Kaggle: https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?
+
 ## Research Question:
 
 Which socioeconomic and health indicators are most strongly associated with life expectancy, and do generalized linear models outperform classical linear regression when modeling global life expectancy data?
