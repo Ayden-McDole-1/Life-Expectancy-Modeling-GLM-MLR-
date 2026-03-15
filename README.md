@@ -5,7 +5,7 @@ This project analyzes the relationship between socioeconomic and health indicato
 
 The project focuses on the model-building process, including variable selection, diagnostic testing, and comparison between classical linear regression and generalized linear models.
 
-Research Question
+Research Question:
 
 Which socioeconomic and health indicators are most strongly associated with life expectancy, and do generalized linear models outperform classical linear regression when modeling global life expectancy data?
 
@@ -41,7 +41,6 @@ Removing rows with incomplete observations
 Standardizing column names
 
 Exporting a clean dataset for statistical modeling
-
 2. Exploratory Data Analysis
 
 Initial exploration included:
@@ -51,7 +50,6 @@ Distribution analysis of life expectancy
 Scatterplots examining relationships between predictors
 
 Identification of potential nonlinear patterns
-
 3. Linear Regression Modeling (R)
 
 Multiple linear regression models were constructed using:
@@ -61,7 +59,6 @@ Forward stepwise AIC selection
 Backward stepwise AIC selection
 
 Both procedures converged to the same reduced model.
-
 4. Model Diagnostics
 
 Several diagnostic tests were performed to evaluate regression assumptions:
@@ -79,7 +76,6 @@ Breusch-Pagan testing indicated heteroscedasticity in residuals. Several correct
 Box-Cox transformation
 
 Weighted least squares
-
 5. Generalized Linear Modeling
 
 Because life expectancy is a positive continuous variable with non-constant variance, a Gamma GLM was explored.
@@ -91,7 +87,6 @@ Inverse link
 Log link
 
 Stepwise AIC selection favored the Gamma model with inverse link.
-
 6. Model Evaluation
 
 Model performance was evaluated using out-of-sample mean squared error on a held-out test dataset.
